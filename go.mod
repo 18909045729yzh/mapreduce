@@ -1,6 +1,7 @@
 module github.com/fluid-cloudnative/fluid
 
 go 1.23.7
+toolchain go1.24.1
 
 replace k8s.io/api => k8s.io/api v0.29.5
 
@@ -57,7 +58,7 @@ replace k8s.io/sample-controller => k8s.io/sample-controller v0.29.5
 require (
 	github.com/agiledragon/gomonkey/v2 v2.13.0
 	github.com/brahma-adshonor/gohook v1.1.9
-	github.com/container-storage-interface/spec v1.8.0
+	github.com/container-storage-interface/spec v1.11.0
 	github.com/docker/go-units v0.5.0
 	github.com/felixge/fgprof v0.9.5
 	github.com/go-logr/logr v1.4.2
