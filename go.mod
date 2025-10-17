@@ -57,7 +57,7 @@ replace k8s.io/sample-controller => k8s.io/sample-controller v0.29.5
 require (
 	github.com/agiledragon/gomonkey/v2 v2.13.0
 	github.com/brahma-adshonor/gohook v1.1.9
-	github.com/container-storage-interface/spec v1.8.0
+	github.com/container-storage-interface/spec v1.12.0
 	github.com/docker/go-units v0.5.0
 	github.com/felixge/fgprof v0.9.5
 	github.com/go-logr/logr v1.4.2
@@ -73,7 +73,7 @@ require (
 	github.com/spf13/cobra v1.9.1
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/zap v1.27.0
-	golang.org/x/net v0.37.0
+	golang.org/x/net v0.38.0
 	golang.org/x/time v0.11.0
 	google.golang.org/grpc v1.70.0
 	gopkg.in/yaml.v2 v2.4.0
